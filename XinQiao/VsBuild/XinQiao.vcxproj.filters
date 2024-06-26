@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{cc0fd104-b416-45a9-b312-27c561fc2eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PdChat206">
+      <UniqueIdentifier>{b00cf87f-bb66-4f5b-a7c3-a9674fb2b401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PdSdk">
+      <UniqueIdentifier>{115bfb1c-ded6-4810-b110-ad85717527fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{39033cbe-4ab1-4e73-9509-1347f4bc3483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transfer">
+      <UniqueIdentifier>{42132be3-0d11-4640-9619-08a3654b0160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{830ffdc3-4185-4a4c-8ca9-2bafdb690d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\LogIn">
+      <UniqueIdentifier>{d6aef6c8-25aa-4c2b-a33a-f6ba4c95a2d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Mnue">
+      <UniqueIdentifier>{90861790-b496-49a3-86b0-ed0fff751d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Manager">
+      <UniqueIdentifier>{85231af1-79c0-4825-9d29-6d1c1955d11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Sign">
+      <UniqueIdentifier>{e90fe22f-1d05-449b-b791-51d1336fb696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\AddFriend">
+      <UniqueIdentifier>{7f4eabb7-284e-4bdd-91d6-a76dc0a5ae76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\SignalManager">
+      <UniqueIdentifier>{0b4df65c-070b-4183-a59a-57ca163f682b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Message">
+      <UniqueIdentifier>{175bc7aa-5b7a-41e0-a2c3-746b94c61f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileIo">
+      <UniqueIdentifier>{abf5e4b4-cdcc-4571-a58b-4f2c2428cbd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Setting">
+      <UniqueIdentifier>{d4313886-3808-4b33-b35f-dfb483dfbea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CustomControlH">
+      <UniqueIdentifier>{c3f9326d-2c7f-4257-be58-30a62ca6e364}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\PdChat206\PdChat206.cpp">
+      <Filter>PdChat206</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\PdSdk\Pd.cpp">
+      <Filter>PdSdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Server\Server.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Transfer\Transfer.cpp">
+      <Filter>Transfer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI\LogIn\LogIn.cpp">
+      <Filter>UI\LogIn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI\Mnue\mnue.cpp">
+      <Filter>UI\Mnue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI\Manager\Manager.cpp">
+      <Filter>UI\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI\Sign\sign.cpp">
+      <Filter>UI\Sign</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI\AddFriend\addfirend.cpp">
+      <Filter>UI\AddFriend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Main\main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI\SignalManager\SignalManager.cpp">
+      <Filter>UI\SignalManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI\Message\message.cpp">
+      <Filter>UI\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FileIo\FileIo.cpp">
+      <Filter>FileIo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\UI\Setting\setting.cpp">
+      <Filter>UI\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CustomControlH\imagelabel.cpp">
+      <Filter>CustomControlH</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\PdChat206\PdChat206.h">
+      <Filter>PdChat206</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PdSdk\Pd.h">
+      <Filter>PdSdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PdSdk\WinPd.h">
+      <Filter>PdSdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Server\Server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Transfer\Transfer.h">
+      <Filter>Transfer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Main\main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI\LogIn\Animation.h">
+      <Filter>UI\LogIn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PdSdk\SearchAlgorithm.h">
+      <Filter>PdSdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\PdSdk\SqList.h">
+      <Filter>PdSdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\UI\Manager\Manager.h">
+      <Filter>UI\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FileIo\FileIo.h">
+      <Filter>FileIo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\Code\UI\LogIn\LogIn.h">
+      <Filter>UI\LogIn</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Code\UI\Mnue\mnue.h">
+      <Filter>UI\Mnue</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Code\UI\Sign\sign.h">
+      <Filter>UI\Sign</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Code\UI\AddFriend\addfirend.h">
+      <Filter>UI\AddFriend</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Code\UI\SignalManager\SignalManager.h">
+      <Filter>UI\SignalManager</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Code\UI\Message\message.h">
+      <Filter>UI\Message</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Code\UI\Setting\setting.h">
+      <Filter>UI\Setting</Filter>
+    </QtMoc>
+    <QtMoc Include="..\Code\CustomControlH\imagelabel.h">
+      <Filter>CustomControlH</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
